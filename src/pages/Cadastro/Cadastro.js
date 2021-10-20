@@ -31,7 +31,6 @@ const Cadastro = (props) => {
           try {
               const response = await Api.fetchPost(task);
               const result = await response.json();
-              alert(result.message)
               history.push('/')
           } catch(error) {
               console.log(error);
@@ -50,15 +49,15 @@ const Cadastro = (props) => {
                 <h3 className="title-form">Cadastrar uma nova tarefa</h3>  
                 </div> 
                 <div className titulo>          
-                <input type="text" id="titulo" name="titulo" placeholder="titulo" className="inputUser"/>
+                <input type="text" id="titulo" name="titulo" placeholder="titulo"  required/>
                 </div>
                 <div className="descricao">  
-                <input type="text" id="descricao" name="descricao" placeholder="descricao" className="inputUser"/>
+                <input type="text" id="descricao" name="descricao" placeholder="descricao"  required/>
                 </div>
                 <div className="info" > 
-                <input type="text" id="prioridade" name="prioridade" placeholder="prioridade" className="inputUser"/>  
-                <input type="text" id="status" name="status" placeholder="status" className="inputUser"/>
-                <input type="text" id="prazo" name="prazo" placeholder="prazo" className="inputUser"/> 
+                <input type="text" id="prioridade" name="prioridade" placeholder="prioridade"  required/>  
+                <input type="text" id="status" name="status" placeholder="status" required/>
+                <input type="text" id="prazo" name="prazo" placeholder="prazo"  required/> 
                 </div> 
                 <button className="btn-enviar" type="submit" >Enviar</button>
             </form>
