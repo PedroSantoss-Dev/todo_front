@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: .1em .1em .2em rgba(255, 255, 255, 0.678);
+    font-family: 'Gluten', cursive;
+    font-weight: 300;
+    margin: 40px auto;
+    color: #000;    
+}
+
+
+.Home{
+   height: 100%;
+}
+

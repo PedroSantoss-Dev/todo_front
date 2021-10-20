@@ -1,0 +1,35 @@
+p{
+    margin: 0.5rem;
+    color: rgb(36, 35, 35);
+    
+}
+span{
+    color: #000;
+}
+.card{
+    border-radius:12px;
+    border: none;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.288);
+    background-color: rgba(216, 212, 212, 0.616);
+    width: 16rem;
+    height: 16rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    word-break: break-all;
+}
