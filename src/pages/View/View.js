@@ -35,8 +35,8 @@ const View = (props)=>{
                 <div className="view-info">
                     <h2 className="title-h2">{tarefa.titulo}</h2>
                     <p className='view-info-p'>Descrição:<span className='view-info-span'>{tarefa.descricao}</span></p>
-                    <p style={{ color: "rgba(0, 0, 0, 0.801)" }}><strong>Prioridade:</strong><span className='view-info-span'>{tarefa.prioridade}</span></p>
-                    <p className="view-info-p">Status: <span className='view-info-span'>{tarefa.estado}</span></p>
+                    <p className='view-info-p' ><strong>Prioridade:</strong><span className='view-info-span'>{tarefa.prioridade}</span></p>
+                    <p className="view-info-p">Status: <span className='view-info-span'>{tarefa.status}</span></p>
                     <p className="view-info-p">Prazo: <span className='view-info-span'>{tarefa.prazo}</span></p>
                     <p className="view-info-p">Criado em <span className='view-info-span'>{date}</span></p>
                     <div className="btn-view"> 
