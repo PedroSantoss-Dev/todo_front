@@ -53,7 +53,7 @@ const Edicao = (props) => {
                 name="titulo"
                 value={task.titulo}
                 onChange={handleFieldsChange}
-                className="add-form-group-input"
+            
               />
             </div>
             <div className="form-info">
@@ -66,20 +66,20 @@ const Edicao = (props) => {
                 name="descricao"
                 value={task.descricao}
                 onChange={handleFieldsChange}
-                className="add-form-group-input"
+                className="in-descricao"
               />
             </div>
             <div className="form-info">
-              <label htmlFor="">
+              <label >
                 Prioridade
               </label>
               <input
-                type="Prioridade"
-                id="Prioridade"
+                type="text"
+                id="prioridade"
                 name="Prioridade"
-                value={task.Prioridade}
+                value={task.prioridade}
                 onChange={handleFieldsChange}
-                className="add-form-group-input"
+                className="i-prioridade"
               />
             </div>
             <div className="form-info">
