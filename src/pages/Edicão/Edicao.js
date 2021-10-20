@@ -76,7 +76,7 @@ const Edicao = (props) => {
               <input
                 type="text"
                 id="prioridade"
-                name="Prioridade"
+                name="prioridade"
                 value={task.prioridade}
                 onChange={handleFieldsChange}
                 className="i-prioridade"
